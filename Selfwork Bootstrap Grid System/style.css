@@ -1,0 +1,41 @@
+nav img{
+    width: 100px;
+    height: 100px;
+}
+
+nav img:hover{
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./Media/ARANCINI.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 100px;
+}
+
+nav p{
+    font-size: 40px;
+}
+
+h1{
+    text-shadow: 5px 5px 5px black;
+}
+
+h2{
+    margin-bottom: 100px;
+}
+
+article h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 600px){
+    header{
+        min-height: 100vh;
+        min-width: auto;
+    }
+}
